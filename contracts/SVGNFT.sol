@@ -5,7 +5,7 @@ pragma solidity 0.8.18;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 
-contract ChainBatles is ERC721URIStorage {
+contract SVGNFT is ERC721URIStorage {
     uint256 public tokenCounter;
     event CreatedSVGNFT(uint256 indexed tokenId, string tokenURI);
 
